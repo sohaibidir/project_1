@@ -1,0 +1,42 @@
+nav img{
+    max-width: 64px;
+    max-height: 64px;
+    border-radius: 50%;
+    object-fit: scale-down;
+}
+main{
+    text-align: center;
+}
+#coder{
+    width: 98%;
+    min-height: 280px;
+    border-radius: 16px;
+    border: 2px solid rgb(131, 131, 131);
+}
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+#buttons button{
+    width: 47%;
+    border-radius: 12px;
+    border: 0px;
+    padding: 12px;
+}
+#clear{
+    background-color: rgb(236, 57, 57);
+    color: white;
+}
+#play{
+    background-color: rgb(27, 26, 26);
+    color: white;
+}
+#result{
+    padding: 10px;
+    border-bottom: 2px solid rgb(131, 131, 131);
+    margin: 8px 0px;
+    font-weight: bold;
+}
+#result_final{
+    max-width: 100% !important;
+}
